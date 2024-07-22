@@ -1,6 +1,7 @@
 name: tdlib-build
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/workflows/td-version.json'
